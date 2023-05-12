@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".HomeFragment">
+
+        <!-- TODO: Update blank fragment layout -->
+        <View
+            android:layout_width="360dp"
+            android:layout_height="31dp"
+            android:background="#CA4934"/>
+
+        <TextView
+            android:id="@+id/t1"
+            android:text="Nevtik Learning"
+            android:textFontWeight="400"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:lineHeight="29dp"
+            android:letterSpacing="0.3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            />
+
+        <ImageView
+            android:layout_width="360dp"
+            android:layout_height="155dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="31dp"
+            android:src="@drawable/bg"
+            />
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:text="Halo!\nSelamat Datang di Nevtik App"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="209dp"
+            android:textFontWeight="400"
+            android:textSize="21sp"
+            android:lineHeight="31dp"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:id="@+id/l1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="292dp"
+            android:background="@drawable/bgshadow"
+            android:elevation="10dp"
+            />
+
+        <TextView
+            android:id="@+id/t3"
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:text="Progress Java"
+            android:layout_marginTop="311dp"
+            android:layout_marginLeft="34dp"
+            android:textFontWeight="400"
+            android:textSize="18sp"
+            android:lineHeight="26dp"
+            android:textColor="@color/black"
+            android:elevation="10dp"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="300dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="352dp"
+            android:layout_marginLeft="30dp"
+            android:elevation="10dp"
+            android:max="100"
+            android:progress="50"
+            android:progressDrawable="@drawable/custom_progressbar"
+            style="@android:style/Widget.ProgressBar.Horizontal"/>
+
+        <TextView
+            android:id="@+id/t4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="380dp"
+            android:text="50%"
+            android:textFontWeight="400"
+            android:textSize="18sp"
+            android:lineHeight="26dp"
+            android:textColor="@color/black"
+            android:elevation="10dp"
+            android:letterSpacing="0.05"/>
+
+        <TextView
+            android:id="@+id/t5"
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="435dp"
+            android:text="Rekomendasi"
+            android:textFontWeight="400"
+            android:textSize="21sp"
+            android:lineHeight="31dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/t6"
+            android:layout_width="81dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="267dp"
+            android:layout_marginTop="435dp"
+            android:text="Lainnya"
+            android:textFontWeight="400"
+            android:textSize="21sp"
+            android:lineHeight="31dp"
+            android:textColor="#44CCEA"/>
+
+        <ImageView
+            android:id="@+id/bgjava"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="488dp"
+            android:background="@drawable/bgshadow"
+            android:elevation="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/bgcpp"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="188dp"
+            android:layout_marginTop="488dp"
+            android:background="@drawable/bgshadow"
+            android:elevation="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/imgjava"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="68dp"
+            android:layout_marginTop="513dp"
+            android:background="@drawable/java"
+            android:elevation="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/imgcpp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="243dp"
+            android:layout_marginTop="513dp"
+            android:background="@drawable/cpp"
+            android:elevation="10dp"
+            />
+
+        <TextView
+            android:id="@+id/tjava"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="47dp"
+            android:layout_marginTop="566dp"
+            android:text="Java"
+            android:textFontWeight="400"
+            android:textSize="30sp"
+            android:lineHeight="44dp"
+            android:elevation="10dp"
+            android:letterSpacing="0.25"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tcpp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="234dp"
+            android:layout_marginTop="568dp"
+            android:text="C++"
+            android:textFontWeight="400"
+            android:textSize="30sp"
+            android:lineHeight="44dp"
+            android:elevation="10dp"
+            android:letterSpacing="0.25"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:id="@+id/bgpy"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="663dp"
+            android:background="@drawable/bgshadow"
+            android:elevation="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/imgpy"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="68dp"
+            android:layout_marginTop="688dp"
+            android:background="@drawable/python"
+            android:elevation="10dp"
+            />
+
+        <TextView
+            android:id="@+id/tpy"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="47dp"
+            android:layout_marginTop="751dp"
+            android:text="Python"
+            android:textFontWeight="400"
+            android:textSize="21sp"
+            android:lineHeight="44dp"
+            android:elevation="10dp"
+            android:letterSpacing="0.25"
+            android:textColor="@color/black"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="830dp"
+            />
+
+    </RelativeLayout>
+
+</ScrollView>

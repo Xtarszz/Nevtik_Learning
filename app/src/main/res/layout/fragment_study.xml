@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudyFragment">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".StudyFragment">
+
+        <!-- TODO: Update blank fragment layout -->
+        <View
+            android:layout_width="360dp"
+            android:layout_height="31dp"
+            android:background="#CA4934"/>
+
+        <TextView
+            android:id="@+id/t1"
+            android:text="Nevtik Learning"
+            android:textFontWeight="400"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:lineHeight="29dp"
+            android:letterSpacing="0.3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            />
+
+        <ImageView
+            android:layout_width="360dp"
+            android:layout_height="155dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="31dp"
+            android:src="@drawable/bg2"
+            />
+
+        <ImageView
+            android:id="@+id/divjava"
+            android:layout_width="325dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="193dp"
+            android:background="@drawable/bgshadow"
+            android:elevation="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/divcpp"
+            android:layout_width="325dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="341dp"
+            android:background="@drawable/bgshadow"
+            android:elevation="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/divpy"
+            android:layout_width="325dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="494dp"
+            android:background="@drawable/bgshadow"
+            android:elevation="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/imgjava2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="151dp"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/java"
+            android:elevation="10dp"
+            />
+
+        <TextView
+            android:id="@+id/tjava2"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="260dp"
+            android:text="Java"
+            android:textFontWeight="400"
+            android:textSize="30sp"
+            android:lineHeight="44dp"
+            android:elevation="10dp"
+            android:letterSpacing="0.3"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:id="@+id/imgcpp2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="151dp"
+            android:layout_marginTop="354dp"
+            android:background="@drawable/cpp"
+            android:elevation="10dp"
+            />
+
+        <TextView
+            android:id="@+id/tcpp2"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="142dp"
+            android:layout_marginTop="420dp"
+            android:text="C++"
+            android:textFontWeight="400"
+            android:textSize="30sp"
+            android:lineHeight="44dp"
+            android:elevation="10dp"
+            android:letterSpacing="0.2"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:id="@+id/imgpy2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="154dp"
+            android:layout_marginTop="509dp"
+            android:background="@drawable/python"
+            android:elevation="10dp"
+            />
+
+        <TextView
+            android:id="@+id/tpy2"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="115dp"
+            android:layout_marginTop="575dp"
+            android:text="Python"
+            android:textFontWeight="400"
+            android:textSize="30sp"
+            android:lineHeight="44dp"
+            android:elevation="10dp"
+            android:letterSpacing="0.2"
+            android:textColor="@color/black"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="640dp"
+            />
+
+    </RelativeLayout>
+
+</ScrollView>
